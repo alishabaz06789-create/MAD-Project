@@ -1,44 +1,40 @@
-SmartNotes 📝
+📒 SmartNotes – MAD Project
 
-SmartNotes is a simple Android notes application built using Java and SQLite.
-It allows users to create, edit, delete, and search notes with category support and basic app settings.
+SmartNotes is a lightweight Android Notes Application developed as part of a Mobile Application Development (MAD) project.
+The app allows users to create, manage, and organize notes efficiently using Java and SQLite, with support for themes and basic app settings.
 
-Features
+🚀 Features
 
-Add, edit, and delete notes
+✍️ Create, edit, and delete notes
 
-View notes in a RecyclerView
+📃 Display notes using RecyclerView
 
-Search notes in real time
+🔍 Real-time search by title or content
 
-Categorize notes (Work, Personal, Study)
+🏷️ Categorize notes (Work, Personal, Study)
 
-Home screen with total notes count
+🏠 Home screen showing total saved notes
 
-Dark mode toggle
+🌙 Dark mode support
 
-Notification preference toggle
+🔔 Notification preference toggle
 
-Offline storage using SQLite
+💾 Offline data storage using SQLite
 
-Tech Stack
+🛠 Tech Stack
+Component	Technology
+Language	Java
+Database	SQLite
+UI	XML, RecyclerView
+Architecture	Simple MVC
+Storage	SharedPreferences
+Platform	Android
+📱 Screens Included
 
-Language: Java
+Home Screen – Displays welcome message and total notes count
 
-Database: SQLite
+Notes Screen – List of all notes with search functionality
 
-UI: XML, RecyclerView, Fragments
+Add / Edit Note – Dialog-based note management
 
-Architecture: Simple MVC
-
-Storage: SharedPreferences
-
-App Screens
-
-Home
-
-Notes List
-
-Add / Edit Note (Dialog)
-
-Settings
+Settings Screen – Dark mode & notification preferences
